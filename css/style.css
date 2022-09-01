@@ -221,6 +221,32 @@ img {
 }
 .advantages-list__item {
 }
+.advantages-list__item::before {
+  content: '';
+  display: block;
+
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.advantages-icon-antena::before {
+  background-image: url(../images/icons/antenna.svg);
+}
+.advantages-icon-time::before {
+  background-image: url(../images/icons/clock.svg);
+}
+.advantages-icon-computer::before {
+  background-image: url(../images/icons/computer.svg);
+}
+.advantages-icon-astr::before {
+  background-image: url(../images/icons/astr.svg);
+}
+
 .advantages-list__header {
   font-weight: 700;
   font-size: 14px;
