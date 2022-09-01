@@ -112,17 +112,37 @@ img {
 .contact-list__item {
 }
 .contact-list__mail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
   color: var(--main-light);
 
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.contact-list__mail,
 .contact-list__tel {
+  fill: #757575;
+}
+.contact-list__mail:hover .header-icon,
+.contact-list__mail:focus .header-icon {
+  fill: #2196f3;
+}
+.contact-list__tel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
   color: var(--main-light);
 
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.contact-list__tel:hover .header-icon,
+.contact-list__tel:focus .header-icon {
+  fill: #2196f3;
 }
 .nav:focus,
 .nav:hover,
@@ -222,6 +242,18 @@ img {
 .advantages-list__item {
 }
 
+.advantages-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 270px;
+  height: 120px;
+
+  margin-bottom: 30px;
+
+  background-color: var(--btn-light);
+}
 .advantages-list__header {
   font-weight: 700;
   font-size: 14px;
