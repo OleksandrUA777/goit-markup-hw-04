@@ -283,7 +283,6 @@ img {
   background-color: var(--main-white);
 }
 .team-list__img {
-  margin-bottom: 30px;
 }
 .team-list__header {
   font-weight: 500;
@@ -309,8 +308,10 @@ img {
   display: flex;
   gap: 10px;
   justify-content: center;
-
-  margin-bottom: 30px;
+}
+.team-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-icon__container {
 }
