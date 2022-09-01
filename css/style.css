@@ -372,6 +372,48 @@ img {
 .team-icon__link:focus .team-icon__socials {
   fill: var(--main-white);
 }
+/* clients */
+.clients-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+
+  color: #212121;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+}
+.clients-list__item {
+}
+.clients-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  background-color: transparent;
+}
+.clients-icon {
+  fill: #afb1b8;
+}
+.clients-list__link:hover,
+.clients-list__link:focus {
+  border-color: var(--main-hover);
+}
+.clients-list__link:hover .clients-icon,
+.clients-list__link:focus .clients-icon {
+  fill: var(--main-hover);
+}
 /* Portfolio */
 /* ////////// */
 /* buttons */
