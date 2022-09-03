@@ -483,12 +483,18 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .cards-list__item {
   width: calc((100% - 60px) / 3);
 
   border: 1px solid #eeeeee;
   background: #ffffff;
 }
+.cards-list__item:hover,
+.cards-list__item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .cards-list__container {
   padding-top: 20px;
   padding-bottom: 20px;
