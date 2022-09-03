@@ -150,8 +150,8 @@ img {
   color: var(--main-hover);
 }
 /* main */
-/* solutions */
-.solutions {
+/* hero */
+.hero {
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -169,7 +169,7 @@ img {
 
   /* outline: 2px solid red; */
 }
-.solutions__header {
+.hero__header {
   width: 696px;
   display: inline-block;
   margin-bottom: 30px;
@@ -183,7 +183,7 @@ img {
 
   color: var(--main-white);
 }
-.solutions__button {
+.hero__button {
   font-family: var(--main-font);
   cursor: pointer;
   font-weight: 700;
@@ -203,8 +203,8 @@ img {
   color: var(--main-white);
   background-color: var(--main-hover);
 }
-.solutions__button:hover,
-.solutions__button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: #188ce8;
 }
 
