@@ -483,7 +483,9 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
-
+.cards-list__link {
+  text-decoration: none;
+}
 .cards-list__item {
   width: calc((100% - 60px) / 3);
 
@@ -509,6 +511,8 @@ img {
   margin-bottom: 4px;
 
   letter-spacing: 0.06em;
+
+  color: var(--main-dark);
 }
 .cards-list__subtitle {
   font-size: 16px;
