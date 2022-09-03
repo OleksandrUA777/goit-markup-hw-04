@@ -518,7 +518,14 @@ img {
 
   background-color: #2f303a;
 }
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+
+  gap: 70px;
+}
 .footer-logo {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -555,4 +562,42 @@ img {
 .footer-list__link {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+/* socials */
+.socials {
+}
+.socials-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: var(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+
+  color: var(--main-white);
+}
+.socials-list {
+  display: flex;
+  gap: 10px;
+}
+.socials-list__item {
+}
+.socials-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.socials-list__link:hover,
+.socials-list__link:focus {
+  background-color: var(--main-hover);
+}
+.socials-icon {
+  fill: var(--main-white);
 }
