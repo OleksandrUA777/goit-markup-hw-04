@@ -376,25 +376,26 @@ img {
   gap: 30px;
 }
 .clients-list__item {
-}
-.clients-list__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   width: 170px;
   height: 92px;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+.clients-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 
   background-color: transparent;
 }
 .clients-icon {
   fill: #afb1b8;
 }
-.clients-list__link:hover,
-.clients-list__link:focus {
+.clients-list__item:hover,
+.clients-list__item:focus {
   border-color: var(--main-hover);
 }
 .clients-list__link:hover .clients-icon,
