@@ -484,6 +484,8 @@ img {
   gap: 30px;
 }
 .cards-list__link {
+  display: block;
+
   text-decoration: none;
 }
 .cards-list__item {
@@ -492,8 +494,8 @@ img {
   border: 1px solid #eeeeee;
   background: #ffffff;
 }
-.cards-list__item:hover,
-.cards-list__item:focus {
+.cards-list__link:hover,
+.cards-list__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -531,7 +533,7 @@ img {
 }
 .footer-wrapper {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 
   gap: 70px;
 }
@@ -577,10 +579,10 @@ img {
 /* socials */
 .socials {
 }
-.socials-header {
+.socials-text {
   font-weight: 700;
   font-size: 14px;
-  line-height: var(16 / 14);
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
